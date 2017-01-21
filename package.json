@@ -1,0 +1,14 @@
+{
+  "name": "hyperpaste",
+  "version": "0.0.1",
+  "description": "Hyper theme based on Toothpaste",
+  "main": "index.js",
+  "repository": "https://github.com/lachlanjc/hyperpaste.git",
+  "keywords": [
+    "hyper",
+    "hyper-theme",
+    "toothpaste"
+  ],
+  "author": "Lachlan Campbell",
+  "license": "MIT"
+}
