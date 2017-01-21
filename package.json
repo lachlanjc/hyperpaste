@@ -1,7 +1,7 @@
 {
   "name": "hyperpaste",
-  "version": "0.0.1",
-  "description": "Hyper theme based on Toothpaste",
+  "version": "1.0.0",
+  "description": "Toothpaste for your Hyper",
   "main": "index.js",
   "repository": "https://github.com/lachlanjc/hyperpaste.git",
   "keywords": [
