@@ -1,0 +1,140 @@
+{
+  "name": "lachlanjc/hyperpaste",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.21"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Default",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "-apple-system, BlinkMacSystemFont, sans-serif",
+    "fontWeight": 400,
+    "bold": 600,
+    "lineHeight": 1.5,
+    "typeScale": [
+      72,
+      48,
+      24,
+      20,
+      16,
+      14,
+      12
+    ],
+    "monospace": "Menlo, monospace",
+    "heading": {
+      "fontFamily": null,
+      "fontStyle": null,
+      "fontWeight": 600,
+      "lineHeight": 1.25,
+      "textTransform": null,
+      "letterSpacing": null,
+      "h0": {},
+      "h1": {},
+      "h2": {},
+      "h3": {},
+      "h4": {},
+      "h5": {},
+      "h6": {}
+    },
+    "alternativeText": {},
+    "space": [
+      0,
+      8,
+      16,
+      32,
+      48,
+      64,
+      96
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "centered": false
+    },
+    "colors": {
+      "text": "#111",
+      "background": "#fff",
+      "primary": "#08e",
+      "secondary": "#059",
+      "highlight": "#e08",
+      "border": "#ddd",
+      "muted": "#eee"
+    },
+    "border": {
+      "width": 1,
+      "radius": 2
+    },
+    "link": {},
+    "button": {
+      "hover": {
+        "boxShadow": "inset 0 0 0 999px rgba(0, 0, 0, .125)"
+      }
+    },
+    "input": {},
+    "body": {
+      "margin": 0
+    },
+    "breakpoints": {
+      "xs": "@media screen and (max-width:40em)",
+      "sm": "@media screen and (min-width:40em)",
+      "md": "@media screen and (min-width:52em)",
+      "lg": "@media screen and (min-width:64em)"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/lachlanjc/hyperpaste",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/hyperpaste",
+          "text": "npm"
+        },
+        {
+          "href": "https://twitter.com/@lachlanjc",
+          "text": "@lachlanjc"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "Hyperpaste",
+      "subhead": "Toothpaste for your Hyper",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "hyperpaste: Toothpaste theme for Hyper",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "lachlanjc",
+          "repo": "hyperpaste"
+        }
+      ],
+      "text": "",
+      "slug": ""
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "\n<p><a href=\"https://github.com/imcatnoone/toothpaste\">Toothpaste</a> for your <a href=\"https://hyper.is\">Hyper</a>.\nJust add <code>hyperpaste</code> to your <code>plugins</code> in <code>~/.hyper.js</code>.</p>\n<p><img src=\"https://cloud.githubusercontent.com/assets/5074763/22178079/a2d6fb12-dffb-11e6-9253-f288d4f1af64.png\"></p>\n<p>MIT licensed.</p>\n<hr>\n<p><em>Another thing by <a href=\"https://twitter.com/lachlanjc\">@lachlanjc</a>.</em></p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [],
+      "heading": ""
+    }
+  ]
+}
