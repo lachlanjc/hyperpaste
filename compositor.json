@@ -1,5 +1,5 @@
 {
-  "name": "Hyperpaste",
+  "name": "lachlanjc/hyperpaste",
   "version": "0.1.4",
   "libraries": {
     "xv": "^1.1.21"
@@ -27,7 +27,7 @@
       14,
       12
     ],
-    "monospace": "SFMono-Regular, Menlo, monospace",
+    "monospace": "Menlo, monospace",
     "heading": {
       "fontFamily": null,
       "fontStyle": null,
@@ -130,8 +130,12 @@
       "component": "footer",
       "links": [
         {
-          "href": "https://twitter.com/lachlanjc",
-          "text": "Another thing by @lachlanjc."
+          "href": "https://github.com/lachlanjc/hyperpaste",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/lachlanjc",
+          "text": "lachlanjc"
         }
       ]
     }
